@@ -1,0 +1,87 @@
+/* Normal CSS styles for the App component */
+
+/* Container and layout styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+  }
+  
+  .column {
+    width: 100%;
+
+  }
+  
+  .is-6 {
+    width: 50%;
+  }
+  
+ 
+  /* Box styles */
+  .box {
+    background-color: #71aed3;
+    /* padding: 20px; */
+    padding-left: 200px;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Adjust as needed */
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Form styles */
+  .field {
+    margin-bottom: 1rem;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    width: 50%;
+    height: 1vh;
+    padding: 0.75rem;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #000101;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  .button-style:hover {
+    background-color: #222223;
+  }
+  
+  .button-style:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(24, 25, 25, 0.5);
+  }
+  
